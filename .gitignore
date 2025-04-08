@@ -1,0 +1,65 @@
+# ------------------------
+# IDE
+# ------------------------
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.env
+.venv/
+.idea/
+.vscode/
+
+# ------------------------
+# Jupyter Notebooks
+# ------------------------
+**/.ipynb_checkpoints/
+
+# ------------------------
+# Models
+# ------------------------
+models/*.pth
+models/*.keras
+models/*.joblib
+models/*.h5
+models/*scaler*
+models/*.txt
+models/*.pkl
+
+
+# ------------------------
+# Pickle
+# ------------------------
+*.pkl
+data/**/*.pkl
+
+# ------------------------
+# Data
+# ------------------------
+data/raw/
+data/processed/
+data/patches/
+*.csv
+*.xlsx
+
+# ------------------------
+# Predictions & Results
+# ------------------------
+*.nii
+*.nii.gz
+*.npy
+*.npz
+results/unet3d/img/
+results/unet3d/predictions_selected/
+results/CascadeNet/pred_masks/
+!results/attention_unet/*.npy
+
+
+# ------------------------
+# Other
+# ------------------------
+.DS_Store
+Kaggle Submission/
