@@ -56,7 +56,7 @@ results/unet3d/img/
 results/unet3d/predictions_selected/
 results/CascadeNet/pred_masks/
 !results/attention_unet/*.npy
-
+!results/unet3d/*.csv
 
 # ------------------------
 # Other
