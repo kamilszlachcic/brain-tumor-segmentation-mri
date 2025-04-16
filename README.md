@@ -49,7 +49,6 @@ Our ROI extraction method is inspired by [CascadeNet (Scientific Reports, 2021)]
 - We threshold binarized versions of T1ce, T2, and FLAIR (T1ce > 0.9, T2/FLAIR > 0.7)
 - Morphological constraints (solidity, area, major axis) are applied on T1ce
 - Regions overlapping with FLAIR ∩ T2 are selected
-- No `remove_small_objects` or `binary_closing` is applied — to preserve small lesions
 
 ### 🧊 Patch Sampling
 
